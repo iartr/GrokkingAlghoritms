@@ -1,9 +1,7 @@
 from collections import deque
 
-
-def person_is_seller(name: str):
+def person_is_seller(name):
     return name[-1] == 'm'
-
 
 graph = {}
 graph["you"] = ["alice", "bob", "claire"]
